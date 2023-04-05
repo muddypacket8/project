@@ -1,5 +1,5 @@
 
-fetch('http://127.0.0.1:5501/db.json', {
+fetch('http://127.0.0.1:5501/db.json',) {
   method: 'PATCH',
   headers: {
     'Content-Type': 'application/json'
@@ -16,52 +16,69 @@ fetch('http://127.0.0.1:5501/db.json', {
   // handle error
 });
 
+const form = document.querySelector('#form');
+
 // Function to handle form submission
 function handleSubmit(event) {
-    event.preventDefault(); // prevent default form submission behavior
-    
-    try {
-      // Get form data
-      const name = document.getElementById('name').value;
-      const email = document.getElementById('email').value;
-      const message = document.getElementById('message').value;
-      
-      // Validate form data
-      if (name.trim() === '' || email.trim() === '' || message.trim() === '') {
-        alert('Please fill out all required fields.');
-        return;
-      }
-      
-      if (!isValidEmail(email)) {
-        alert('Please enter a valid email address.');
-        return;
-      }
+  event.preventDefault(); // prevent default form submission behavior
 
-      
-      // Function to check if email is valid
-      function isValidEmail(email) {
-        // Regular expression to match email format
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return emailRegex.test(email);
-      }
-      
-      // Send form data to server using fetch API
-      alert('Form submitted successfully!');
-      // Clear form fields
-      document.getElementById('name').value = '';
-      document.getElementById('email').value = '';
-      document.getElementById('message').value = '';
-      document.getElementById('Resident').value = '';
-      document.getElementById('Location').value = '';
-    } catch (error) {
-      console.error('There was a problem submitting the form:', error);
-      alert('There was a problem submitting the form. Please try again later.');
+  try {
+    // Get form data
+    const name = document.querySelector('#name').value.trim();
+    const email = document.querySelector('#email').value.trim();
+    const message = document.querySelector('#message').value.trim();
+    const resident = document.querySelector('#Resident').value.trim();
+    const location = document.querySelector('#Location').value.trim();
+
+    // Validate user input
+    if (!name || !email || !message || !resident || !location) {
+      alert('Please fill in all fields');
+      return;
     }
-  }
-  
-  // Add event listener to form submit button
-  const form = document.getElementById('form');
-  form.addEventListener('submit', handleSubmit);
 
-  
-  
+    // Validate email format
+    if (!isValidEmail(email)) {
+      alert('Please enter a valid email address.');
+      return;
+    }
+
+    // Send form data to server using fetch API (replace URL with your own)
+    fetch('http://example.com/submit-form', {
+      method: 'POST',
+      body: JSON.stringify({
+        name,
+        email,
+        message,
+        resident,
+        location
+      }),
+      headers: {
+        'Content-type': 'application/json; charset=UTF-8'
+      }
+    })
+    .then(response => response.json())
+    .then(data => {
+      console.log(data);
+      alert('Your message has been sent successfully!');
+      form.reset();
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      alert('There was an error submitting your message. Please try again later.');
+    });
+
+    // Function to check if email is valid
+    function isValidEmail(email) {
+      // Regular expression to match email format
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return emailRegex.test(email);
+    }
+
+  } catch (error) {
+    console.error('There was a problem submitting the form:', error);
+    alert('There was a problem submitting the form. Please try again later.');
+  }
+}
+
+// Add event listener to form submit button
+form.addEventListener('submit', handleSubmit);
