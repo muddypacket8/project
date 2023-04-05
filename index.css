@@ -37,7 +37,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  
 }
+
 
     
 
@@ -89,7 +91,7 @@ input[type="submit"]:hover {
 
 /* Style the footer */
 footer {
-  background-color: rgb(212, 216, 226);
+  background-color: rgb(21, 189, 29);
   padding: 10px;
   text-align: center;
   margin-top: 40px;
@@ -97,6 +99,14 @@ footer {
 }
 
  .photo {
-  display: flex;
-  padding-right: 5%;
+  display: grid;
+  padding-: 60%;
+ }
+ .egg {
+  padding-top: 30%;
+ }
+ .photo2{
+  display: block;
+  padding-left: 200px;
+  width: max-content;
  }
