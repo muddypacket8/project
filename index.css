@@ -139,7 +139,7 @@ footer {
 .social-links a:hover {
   color: #bbb;
 }
-.container2 {
+.space {
   display: flex;
   flex-direction: row;
 }

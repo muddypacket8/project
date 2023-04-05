@@ -1,19 +1,10 @@
 
-fetch('http://127.0.0.1:5501/db.json',) {
-  method: 'PATCH',
-  headers: {
-    'Content-Type': 'application/json'
-  },
-  body: JSON.stringify({
-    key1: 'new value',
-    key2: 'another new value'
-  })
-})
-.then(response => {
-  // handle response
-})
-.catch(error => {
-  // handle error
+// JS code
+const toggleBtn = document.querySelector('.toggle-btn');
+const sidePanel = document.querySelector('.side-panel');
+
+toggleBtn.addEventListener('click', () => {
+  sidePanel.classList.toggle('show');
 });
 
 const form = document.querySelector('#form');
