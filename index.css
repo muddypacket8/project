@@ -89,11 +89,14 @@ input[type="submit"]:hover {
 
 /* Style the footer */
 footer {
-  background-color: rgb(16, 1, 1);
+  background-color: rgb(212, 216, 226);
   padding: 10px;
   text-align: center;
   margin-top: 40px;
-  color: aquamarine;
+  color: rgb(15, 17, 16);
 }
 
- 
+ .photo {
+  display: flex;
+  padding-right: 5%;
+ }
