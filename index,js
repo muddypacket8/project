@@ -1,4 +1,21 @@
-fetch
+
+fetch('http://127.0.0.1:5501/data.json', {
+  method: 'PATCH',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({
+    key1: 'new value',
+    key2: 'another new value'
+  })
+})
+.then(response => {
+  // handle response
+})
+.catch(error => {
+  // handle error
+});
+
 // Function to handle form submission
 function handleSubmit(event) {
     event.preventDefault(); // prevent default form submission behavior
