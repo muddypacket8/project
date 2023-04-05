@@ -1,0 +1,114 @@
+.header {
+    background-color: #45a049;
+    width: fit-content;
+
+}
+.container{
+background-color: #45a049;
+  width: 100%;
+}
+
+.lim{float:center
+  
+}
+.tim{
+  width: 100%;
+  float:center
+}
+.kim{
+    float:left
+
+    
+}
+/* reset default margin and padding */
+* /* Center the images */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 10%;
+}
+body {
+  width: 100%;
+  float:left
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #C26D6D;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+h1 {
+  padding-top: 10%;
+}
+
+    
+
+/* Style the paragraphs */
+p {
+  font-size: 100%;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Align the right-aligned paragraph to the right */
+.right-align {
+  text-align: right;
+}
+
+/* Style the form */
+form {
+  margin-top: 40px;
+  width: 30%;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(21, 189, 29);
+  padding: 10px;
+  text-align: center;
+  margin-top: 40px;
+  color: rgb(15, 17, 16);
+}
+
+ .photo {
+  display: grid;
+  padding-: 60%;
+ }
+ .egg {
+  padding-top: 5%;
+ }
+ .photo2{
+  display: block;
+  padding-left: 200px;
+  width: max-content;
+ }

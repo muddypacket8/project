@@ -1,5 +1,5 @@
 
-fetch('http://127.0.0.1:5501/data.json', {
+fetch('http://127.0.0.1:5501/db.json', {
   method: 'PATCH',
   headers: {
     'Content-Type': 'application/json'

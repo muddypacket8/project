@@ -1,19 +1,173 @@
-{
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+"critical_care_doctors": [ 
+  {
+    "name": "Dr. Jane Muthoni",
+    "specialty": "Obstetrics and Gynecology",
+    "contact_number": "0723-456-789",
+    "photo_url": "https://randomuser.me/api/portraits/women/1.jpg",
+    "location": {
+      "city": "Nairobi",
+      "country": "Kenya"
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+  },
+  {
+    "name": "Dr. Peter Kibet",
+    "specialty": "Pediatrics",
+    "contact_number": "0712-345-678",
+    "photo_url": "https://randomuser.me/api/portraits/men/2.jpg",
+    "location": {
+      "city": "Mombasa",
+      "country": "Kenya"
     }
-  ],
-  "profile": {
-    "name": "typicode"
+  },
+  {
+    "name": "Dr. Grace Wangari",
+    "specialty": "Cardiology",
+    "contact_number": "0734-567-890",
+    "photo_url": "https://randomuser.me/api/portraits/women/3.jpg",
+    "location": {
+      "city": "Nakuru",
+      "country": "Kenya"
+    }
+  },
+  {
+    "name": "Dr. John Kimani",
+    "specialty": "Dermatology",
+    "contact_number": "0721-234-567",
+    "photo_url": "https://randomuser.me/api/portraits/men/4.jpg",
+    "location": {
+      "city": "Eldoret",
+      "country": "Kenya"
+    }
+  },
+  {
+    "name": "Dr. Sarah Wambui",
+    "specialty": "Neurology",
+    "contact_number": "0726-345-678",
+    "photo_url": "https://randomuser.me/api/portraits/women/5.jpg",
+    "location": {
+      "city": "Nairobi",
+      "country": "Kenya"
+    }
+  },
+  {
+    "name": "Dr. Joseph Mwangi",
+    "specialty": "Psychiatry",
+    "contact_number": "0732-456-789",
+    "photo_url": "https://randomuser.me/api/portraits/men/6.jpg",
+    "location": {
+      "city": "Kisumu",
+      "country": "Kenya"
+    }
+  },
+  {
+    "name": "Dr. Lucy Akinyi",
+    "specialty": "Endocrinology",
+    "contact_number": "0715-678-901",
+    "photo_url": "https://randomuser.me/api/portraits/women/7.jpg",
+    "location": {
+      "city": "Nairobi",
+      "country": "Kenya"
+    }
+  },
+  {
+    "name": "Dr. William Ochieng",
+    "specialty": "Oncology",
+    "contact_number": "0722-345-678",
+    "photo_url": "https://randomuser.me/api/portraits/men/8.jpg",
+    "location": {
+      "city": "Mombasa",
+      "country": "Kenya"
+ } },
+  {
+    "name": "Dr. Mary Njeri",
+    "specialty": "Ophthalmology",
+    "phone": "0720-234-567",
+    "picture_url": "https://randomuser.me/api/portraits/women/1.jpg",
+    "location": {
+      "address": "123 Main St",
+      "city": "Nairobi",
+      "country": "Kenya"
+    }
+  },
+  {
+    "name": "Dr. Philip Odhiambo",
+    "specialty": "Nephrology",
+    "phone": "0735-345-678",
+    "picture_url": "https://randomuser.me/api/portraits/men/2.jpg",
+    "location": {
+      "address": "456 Elm St",
+      "city": "Mombasa",
+      "country": "Kenya"
+    }
+  },
+  {
+    "name": "Dr. Elizabeth Wairimu",
+    "specialty": "Hematology",
+    "phone": "0729-456-789",
+    "picture_url": "https://randomuser.me/api/portraits/women/3.jpg",
+    "location": {
+      "address": "789 Oak St",
+      "city": "Kisumu",
+      "country": "Kenya"
+    }
+  },
+  {
+    "name": "Dr. David Mwai",
+    "specialty": "Rheumatology",
+    "phone": "0713-678-901",
+    "picture_url": "https://randomuser.me/api/portraits/men/4.jpg",
+    "location": {
+      "address": "12 Maple St",
+      "city": "Eldoret",
+      "country": "Kenya"
+    }
+  },
+  {
+    "name": "Dr. Rose Wanjiku",
+    "specialty": "Anesthesiology",
+    "phone": "0724-345-678",
+    "picture_url": "https://randomuser.me/api/portraits/women/5.jpg",
+    "location": {
+      "address": "34 Cedar St",
+      "city": "Nakuru",
+      "country": "Kenya"
+    }
+  },
+  {
+    "name": "Dr. Charles Kipkemoi",
+    "specialty": "Urology",
+    "phone": "0738-789-012",
+    "picture_url": "https://randomuser.me/api/portraits/men/6.jpg",
+    "location": {
+      "address": "567 Pine St",
+      "city": "Nairobi",
+      "country": "Kenya"
+    }
+  },
+  {
+    "name": "Dr. Esther Njoki",
+    "specialty": "Radiology",
+    "phone": "0719-567-890",
+    "picture_url": "https://randomuser.me/api/portraits/women/7.jpg",
+    "location": {
+      "address": "890 Walnut St",
+      "city": "Mombasa",
+      "country": "Kenya"
+    }
+  },
+  {
+    "name": "Dr. Samuel Muriithi",
+    "specialty": "Emergency Medicine",
+    "phone": "0728-234-567",
+    "picture_url": "https://randomuser.me/api/portraits/men/8.jpg",
+    "location": {
+      "address": "345 Oak St",
+      "city": "Kisumu",
+      "country": "Kenya"
+    }
   }
-}
+   
+
+
+]     
+
