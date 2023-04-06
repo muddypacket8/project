@@ -44,7 +44,7 @@ body {
   width: 100%;
   float:left
   font-family: Arial, Helvetica, sans-serif;
-  background-color: green;
+  background-color: light green;
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -107,39 +107,10 @@ input[type="submit"]:hover {
 
 footer {
   margin-top: 40px;
-  background-color: #a35b17;
+  background-color: #17a369;
   padding: 10px;
   text-align: center;
 }
-.footer-col {
-  width: 100%;
-  padding: 20px;
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-}
-
-.social-links {
-  list-style: none;
-  padding: 0;
-  margin: 10px 0;
-}
-
-.social-links li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-.social-links a {
-  color: #fff;
-  font-size: 24px;
-  transition: color 0.2s;
-}
-
-.social-links a:hover {
-  color: #bbb;
-}
-
 
 .toggle-btn {
   display: block;
