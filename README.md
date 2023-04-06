@@ -21,7 +21,7 @@ my code can be fork in my repository if you want you just git clone into your te
 it easy for users to clone the repository and run the code on their local machine
 
 Live Site
-Link to live site: [project-name.github.io](https://muddypacket8.github.io/)
+Link to live site: [project-name.github.io] (https://muddypacket8.github.io/project/)
 
 
 
