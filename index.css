@@ -151,26 +151,4 @@ footer {
   border-radius: 5px;
   cursor: pointer;
 }
-.space {
-  display: flex;
-  flex-direction: row;
-}
 
-.main {
-  flex: 1;
-}
-
-.side-panel {
-  position: fixed;
-  top: 0;
-  right: -200px;
-  width: 200px;
-  height: 100%;
-  background-color: #f0f0f0;
-  padding: 10px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.side-panel.show {
-  transform: translateX(-200px);
-}
